@@ -24,7 +24,7 @@ apt-get install -y nodejs
 npm update -g npm
 
 # Install latest stable version of MongoDB
-apt-get install -y mongodb-org
+apt-get install -y mongodb-org-server mongodb-org-shell
 
 # Install latest stable version of redis server
 apt-get install -y redis-server
